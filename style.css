@@ -1,0 +1,65 @@
+body
+{
+  color: white;
+  background:url(https://images.pexels.com/photos/2559941/pexels-photo-2559941.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 );
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading
+{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+label
+{
+    font-size: 14px;
+  color: #000000;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#button_1 , #button_2 {
+	color: #fff !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #0051ff;
+	padding: 10px;
+	border-radius: 15px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+}
+#button_1:hover , #button_2:hover  {
+	background: #010b6bab;
+	letter-spacing: 1px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.4s ease 0s;
+}
+
+#text {
+    color:black;
+}
